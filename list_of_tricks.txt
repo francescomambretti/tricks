@@ -1,0 +1,10 @@
+- comment/uncomment multiple lines in Vim:
+:start,ends/^/# [comment]
+:start,ends/^#/ [uncomment]
+
+- https://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id (SSH KEYGEN)
+- http://applehint.com/topic/3/tip-to-write-to-ntfs-drive-under-macos-mojave (NTFS Mac)
+
+- loop plot in Gnuplot
+list = "`echo $(ls data*.dat)`"
+plot for [i in list] i using 1:2 w l tit i
